@@ -40,7 +40,7 @@ BILIBILI-HELPER
 * [x] 投币策略更新可配置投币喜好。*【可配置优先给关注的up投币】*
 * [x] 自动送出即将过期的礼物。 *【默认开启，未更新到新版本的用户默认关闭】*
   
-[点此查看更新日志](https://github.com/JunzhouLiu/BILIBILI-HELPER/blob/main/SECURITY.md)
+[点此查看更新日志](https://github.com/JunzhouLiu/BILIBILI-HELPER/releases)
 
 [点击快速开始使用](#使用说明)
 
