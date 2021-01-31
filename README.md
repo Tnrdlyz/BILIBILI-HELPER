@@ -206,7 +206,7 @@ java -jar /home/BILIBILI-HELPER.jar DEDEUSERID SESSDATA BILI_JCT SCKEY >> /var/l
 | Key                | Value             | 说明                                                                    |
 | ------------------ | ----------------- | ----------------------------------------------------------------------- |
 | numberOfCoins      | [0,5]             | 每日投币数量,默认 5 ,为0时则不投币                                      |
-| reserveCoins       | [reserveCoins>=0] | 预留的硬币数，当硬币余额小于这个值时，不会进行投币任务                  |
+| reserveCoins       | [0,4000]          | 预留的硬币数，当硬币余额小于这个值时，不会进行投币任务，默认值为50      |
 | selectLike         | [0,1]             | 投币时是否点赞，默认 0, 0：否 1：是                                     |
 | monthEndAutoCharge | [false,true]      | 年度大会员月底是否用 B币券给自己充电，默认 `true`，即充电对象是你本人。 |
 | giveGift           | [false,true]      | 直播送出即将过期的礼物，默认开启，如需关闭请改为false                   |
